@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat");
+
+* {
+  font-family: "Montserrat";
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+.btn {
+  font-size: 21px;
+  padding: 5px 20px;
+  border: 0;
+  background-color: #0eceae96;
+  color: #fff;
+  border-radius: 3px;
+  transition: all 250ms ease-in-out;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #05947c96;
+}
+
+.btn:focus{
+  outline: none;
+}
+
+.btn2 {
+  font-size: 21px;
+  padding: 5px 20px;
+  border: 3px solid #0eceae96;
+  background-color: #fff;
+  color: #0eceae96;
+  transition: all 250ms ease-in-out;
+  cursor: pointer;
+
+}
+
+.btn2:hover {
+  background-color: #0eceae96;
+  color: #fff;
+}
+
+.btn2:focus {
+  outline: none;
+
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  border-bottom: 4px solid #f2f2f2;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 10px;
+  transition: all 250ms ease-in-out;
+  cursor: pointer;
+}
+
+.navbar a:hover {
+  color: #fff;
+    background-color: #0eceae96;
+}
+
+.header {
+  font-size: 24px;
+  font-family: "Montserrat";
+}
+
+.base-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+
+  
+
+  
+  }
+  
+.content {
+  display: flex;
+  flex-direction: column;
+
+  
+  }
+.formm {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  
+  }
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: fit-content;
+
+
+  
+  }
+  label {
+    font-size: 20px;
+  }
+
+input {
+  margin-top: 6px;
+  min-width: 18em;
+  height: 37px;
+  padding: 0px 10px;
+  font-size: 16px;
+  font-family: "Montserrat";
+  background-color: #f3f3f3;
+  border: 0;
+  border-radius: 4px;
+  margin-bottom: 31px;
+  transition: all 250ms ease-in-out;
+  
+  }
+
+  input :focus{
+  
+      outline: none;
+      box-shadow: 0px 0px 12px 0.8px #0eceae96;
+  }
+
+  .holder {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .preview {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 10px 16px;
+    margin: 20px 0;
+    border-bottom: 2px solid #fafafa;
+  }
+  .preview:hover {
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  }
+  .preview h2 {
+    font-size: 20px;
+    color: #0eceae96;
+    margin-bottom: 8px;
+  }
+
+  .buttonHolder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
